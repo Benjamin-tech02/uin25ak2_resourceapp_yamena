@@ -9,6 +9,7 @@ nav{
 
     ul{
         display: flex;
+        gap: 5px;
         justify-content: space-between;
         list-style: none;
         padding: 0;
@@ -18,13 +19,11 @@ nav{
         li{
             margin: 0;
             background-color: #2A324B;
-            // color: #fff;
             font-family: "Roboto", serif;
             font-optical-sizing: auto;
             font-weight: 900;
             font-style: normal;
-            font-variation-settings:
-              "wdth" 100;
+            font-variation-settings: "wdth" 100;
             padding-left: 65px;
             padding-right: 65px;
             padding-top: 20px;
@@ -57,4 +56,74 @@ main{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #fff;
+}
+
+@media (max-width: 1065px) {
+    nav ul {
+        font-size: 0.8rem; 
+    }
+
+    nav ul li {
+        padding: 20px 60px; 
+    }
+}
+
+@media (max-width: 1024px) {
+    nav ul {
+        font-size: 0.9rem; 
+    }
+
+    nav ul li {
+        padding: 20px 50px; 
+    }
+}
+
+@media (max-width: 900px) {
+    nav ul {
+        font-size: 0.8rem; 
+    }
+
+    nav ul li {
+        padding: 20px 35px; 
+    }
+}
+
+@media (max-width: 770px) {
+    nav ul {
+        font-size: 0.8rem; 
+    }
+
+    nav ul li {
+        padding: 20px 33px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        font-size: 0.8rem; 
+    }
+
+    nav ul li {
+        padding: 20px 25px; 
+    }
+}
+
+@media (max-width: 615px) {
+    nav ul {
+        font-size: 0.8rem; 
+    }
+
+    nav ul li {
+        padding: 20px 20px; 
+    }
+}
+
+@media (max-width: 570px) {
+    nav ul {
+        font-size: 0.7rem; 
+    }
+
+    nav ul li {
+        padding: 20px 12px; 
+    }
 }
